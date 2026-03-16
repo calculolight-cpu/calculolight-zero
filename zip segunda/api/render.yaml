@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: calculolight-api
+    env: node
+    rootDir: api
+    buildCommand: npm install
+    startCommand: npm start
